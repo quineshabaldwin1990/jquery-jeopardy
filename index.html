@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jeopardy!</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Jeopardy!</h1>
+  </header>
+  <div>
+    <h1 id="score">Your Score: $0</h1>
+  </div>
+  <div id="table-container"></div> <!-- div container that game board will populate -->
+  <div id="question"></div>
+  <div class="answer">
+    <h3>Your answer: &nbsp;</h3>
+    <input type="text" id="ans"> &nbsp;
+    <button id="submit">Submit</button>
+  </div>
+
+  <script src="https://unpkg.com/jquery"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
